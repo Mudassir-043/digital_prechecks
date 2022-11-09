@@ -1,0 +1,50 @@
+magic
+tech sky130B
+timestamp 1667595339
+<< pwell >>
+rect -1569 -1569 1569 1569
+<< psubdiff >>
+rect -1551 1534 -1503 1551
+rect 1503 1534 1551 1551
+rect -1551 1503 -1534 1534
+rect 1534 1503 1551 1534
+rect -1551 -1534 -1534 -1503
+rect 1534 -1534 1551 -1503
+rect -1551 -1551 -1503 -1534
+rect 1503 -1551 1551 -1534
+<< psubdiffcont >>
+rect -1503 1534 1503 1551
+rect -1551 -1503 -1534 1503
+rect 1534 -1503 1551 1503
+rect -1503 -1551 1503 -1534
+<< ndiode >>
+rect -1500 1494 1500 1500
+rect -1500 -1494 -1494 1494
+rect 1494 -1494 1500 1494
+rect -1500 -1500 1500 -1494
+<< ndiodec >>
+rect -1494 -1494 1494 1494
+<< locali >>
+rect -1551 1534 -1503 1551
+rect 1503 1534 1551 1551
+rect -1551 1503 -1534 1534
+rect 1534 1503 1551 1534
+rect -1502 -1494 -1494 1494
+rect 1494 -1494 1502 1494
+rect -1551 -1534 -1534 -1503
+rect 1534 -1534 1551 -1503
+rect -1551 -1551 -1503 -1534
+rect 1503 -1551 1551 -1534
+<< viali >>
+rect -1494 -1494 1494 1494
+<< metal1 >>
+rect -1500 1494 1500 1497
+rect -1500 -1494 -1494 1494
+rect 1494 -1494 1500 1494
+rect -1500 -1497 1500 -1494
+<< properties >>
+string FIXED_BBOX -1542 -1542 1542 1542
+string gencell sky130_fd_pr__diode_pw2nd_05v5
+string library sky130
+string parameters w 30 l 30 area 900.0 peri 120.0 nx 1 ny 1 dummy 0 lmin 0.45 wmin 0.45 elc 1 erc 1 etc 1 ebc 1 doverlap 0 compatible {sky130_fd_pr__diode_pw2nd_05v5 sky130_fd_pr__diode_pw2nd_05v5_lvt  sky130_fd_pr__diode_pw2nd_05v5_nvt sky130_fd_pr__diode_pw2nd_11v0} full_metal 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>
